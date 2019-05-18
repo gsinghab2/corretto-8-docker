@@ -1,4 +1,4 @@
-# corretto-8-docker
+# corretto-8-docker-arm64
 
 [![Build Status](https://travis-ci.org/corretto/corretto-8-docker.svg?branch=master)](https://travis-ci.org/corretto/corretto-8-docker)
 
@@ -8,7 +8,7 @@ For usage instructions, see the [AWS documentation site](https://docs.aws.amazon
 ## Building
 
 ```
-docker build -t amazon-corretto-8 github.com/corretto/corretto-8-docker
+docker build -t amazon-corretto-8-arm64 github.com/gsinghab2/corretto-8-docker
 ```
 
 ## Testing
