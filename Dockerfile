@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM arm64v8/amazonlinux:2
 
 ARG rpm=java-1.8.0-amazon-corretto-devel-1.8.0_212.b04-2.x86_64.rpm
 ARG path=https://d3pxv6yz143wms.cloudfront.net/8.212.04.2
