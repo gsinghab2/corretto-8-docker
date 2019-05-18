@@ -3,7 +3,7 @@ FROM arm64v8/amazonlinux:2
 ARG rpm=java-1.8.0-amazon-corretto-devel-1.8.0_212.b04-2.amzn2.aarch64.rpm
 
 ARG path=https://d3pxv6yz143wms.cloudfront.net/8.212.04.2
-ARG key=240c93cc258d1b9c0f9091849d1336f9
+ARG key=0E50DA5A06C9F82E013C6561A5E4F647D043E83B
 # In addition to installing the RPM, we also install
 # fontconfig. The folks who manage the docker hub's
 # official image library have found that font management
